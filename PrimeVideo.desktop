@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Prime Videos
+Comment=Unofficial Amazon Prime Video desktop application
+Icon=primevideo
+Exec=primevideo
+Actions=
+Categories=AudioVideo;Video;

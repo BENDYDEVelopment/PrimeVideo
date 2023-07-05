@@ -1,0 +1,29 @@
+{
+  "name": "PrimeVideo",
+  "version": "1.0.0",
+  "pkgrel": "5",
+  "description": "Unofficial Amazon Prime Video desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/primevideo.git"
+  },
+  "build": {
+    "electronDownload": {
+      "mirror": "https://github.com/castlabs/electron-releases/releases/download/v"
+    }
+  },
+  "author": "Corey Bruce",
+  "license": "GPL",
+  "devDependencies": {
+    "electron": "github:castlabs/electron-releases#v25.0.0+wvcus",
+    "electron-builder": "^23.6.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "electron-context-menu": "^3.6.1"
+  }
+}
